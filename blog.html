@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="CSS\style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS\all.min.css">
+  </head>
+  <body>
+    <section class="blog">
+        <nav>
+            <img src="Images\logo.png">
+            <div class="navLinks" id="navLink">
+              <i class="fa fa-times" onClick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onClick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Certificates & Online Programs <br>For 2021</h1>
+    </section>
+<!-- BLog Page Content-------------------->
+<section class="blogContent">
+  <div class="row">
+    <div class="blogLeft">
+        <img src="Images\certificate.jpg" alt="">
+        <h2>Our Certificates & Online Programs For 2021</h2>
+        <div class="blogText">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <br>
+        </div>
+        <div class="comment">
+          <h3>Leave a comment</h3>
+          <form class="commentForm">
+            <input type="text" placeholder="Enter name">
+            <input type="email" placeholder="Enter email">
+            <textarea rows="5"></textarea>
+            <a href="#">POST A COMMENT</a>
+          </form>
+        </div>
+    </div>
+    <div class="blogRight">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Busniess Analytics</span>
+            <span>21</span>
+          </div>
+
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+
+          <div>
+            <span>Computer Science</span>
+            <span>33</span>
+          </div>
+
+          <div>
+            <span>Pharmacy</span>
+            <span>19</span>
+          </div>
+
+          <div>
+            <span>Microbiology</span>
+            <span>37</span>
+          </div>
+
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer-------------->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid magna aliqua.<br>Ut enim ad exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  <div class="icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fas fa-envelope"></i>
+  </div>
+  <p>Copyright <i class="far fa-copyright"></i> all reserved by batch of UYLab Online WD-2110(Tanmoy Mozumder).</p>
+</section>
+
+<!---JS Part Toggle Menu-------->
+  <script type="text/javascript">
+      var navLink = document.getElementById("navLink");
+
+      function showMenu(){
+          navLink.style.right = "0";
+      }
+      function hideMenu(){
+          navLink.style.right = "-200px";
+      }
+  </script>
+  </body>
+</html>

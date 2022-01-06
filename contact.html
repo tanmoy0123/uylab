@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="CSS\style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS\all.min.css">
+  </head>
+  <body>
+    <section class="contactPage">
+        <nav>
+            <img src="Images\logo.png">
+            <div class="navLinks" id="navLink">
+              <i class="fa fa-times" onClick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onClick="showMenu()"></i>
+      </nav>
+
+      <h1>Contact Us</h1>
+    </section>
+<!-- Contatct Us Page -->
+<section class="contactPageConent">
+
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.0603415895!2d90.40305171450277!3d23.780865493529717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c773d4c51555%3A0xc64f334b35dcc70d!2sUY%20LAB!5e0!3m2!1sen!2sbd!4v1636186821278!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+
+<!-- Contact Page Details -->
+<section class="contactPageDetails">
+  <div class="row">
+    <div class="contactPageDetailsCol">
+      <div>
+        <i class="fas fa-home"></i>
+        <span>
+            <h5>11 Bir Uttam AK Khandakar Road, 31 Mohakhali Commercial Area, <br>Colombia Super Market, 4th Floor, Wireless Gate, 1213</h5>
+        </span>
+      </div>
+
+      <div>
+        <i class="fas fa-phone"></i>
+        <span>
+            <h5>+880 1701716101</h5>
+            <p>10 AM to 6 PM, Saturday To Thursday</p>
+        </span>
+      </div>
+
+      <div>
+        <i class="fas fa-envelope"></i>
+        <span>
+            <h5>tanmoymozumder0@gmail.com</h5>
+            <p>Email Us For Any Query</p>
+        </span>
+      </div>
+    </div>
+    <div class="contactPageDetailsCol">
+        <form >
+          <input type="text" placeholder="Enter your name" required>
+          <input type="email" placeholder="Enter your email" required>
+          <input type="text" placeholder="Enter your subject" required>
+          <textarea  rows="8"  placeholder="Message"></textarea>
+          <a href="#">Send Message</a>
+        </form>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer-------------->
+<section class="footer">
+  <h4>About Us</h4>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidid magna aliqua.<br>Ut enim ad exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  <div class="icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-linkedin"></i>
+      <i class="fas fa-envelope"></i>
+  </div>
+  <p>Copyright <i class="far fa-copyright"></i> all reserved by batch of UYLab Online WD-2110(Tanmoy Mozumder).</p>
+</section>
+
+<!---JS Part Toggle Menu-------->
+  <script type="text/javascript">
+      var navLink = document.getElementById("navLink");
+
+      function showMenu(){
+          navLink.style.right = "0";
+      }
+      function hideMenu(){
+          navLink.style.right = "-200px";
+      }
+  </script>
+  </body>
+</html>
